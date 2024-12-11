@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.date-box {
+  width: 60px;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f8f9fa; /* Soft white for readability */
+}
+
+.btn-outline-light {
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.btn-danger {
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+}
+
+/* Image Styling */
+.image-container {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px; /* Circular corners */
+  overflow: hidden; /* Ensures image stays inside the rounded rectangle */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow for better aesthetics */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image scales properly without distortion */
+  align-items: center;
+}
+
+.highlight {
+  color: orange;
+}
+
+.about-section {
+  padding: 1rem 0;
+}
